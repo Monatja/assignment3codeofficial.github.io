@@ -1,0 +1,184 @@
+<style>
+	.background-img {
+		  background-image: url("background.jpg"); /*set background as image*/
+		  height: 250px;/*set background image height*/
+		  width: 200px;/*set background image width*/
+		  background-color: #cccccc;/*set background color if image disappears*/
+		  background-size: cover;/*set background image to cover*/
+		  overflow: hidden;/*hide background overflow*/
+		}
+
+	body{
+		background-color: #4f6475;/*set background color */
+		}
+
+	
+	p{ 
+  		font-family: Arial;/*set font type of paragraphs to arial*/
+  		font-size: 160%;/*set font size of paragraphs */
+  	
+	}
+
+	.sidenavigation { 
+		  width :400px;/*set width of navigation*/
+  		  margin-left : 500px;/*set  of navigation to the left side*/
+		  overflow: hidden;/*do not show overflow of  navigation*/
+		  font-size: 200%;/*set font size of navigation*/
+		  font-color:#a5c8cc;/*set font color of navigation*/
+		  padding:  20px;/*set padding  of navigation to 20 px in all sides*/
+		  transition: 0.5s; /*set blink of navigation*/
+		  height: 100%; /*set full height of navigation*/
+ 		  width: 80%;/*set width of navigation*/
+  
+		}
+	#sidenavigation { 
+		  width :400px;/*set width of navigation*/
+  		  margin-left : 500px;/*set  of navigation to the left side*/
+		  overflow: hidden;/*do not show overflow of  navigation*/
+		  font-size: 200%;/*set font size of navigation*/
+		  font-color:#a5c8cc;/*set font color of navigation*/
+		  padding:  20px;/*set padding  of navigation to 20 px in all sides*/
+		  transition: 0.5s; /*set blink of navigation*/
+		  height: 100%; /*set full height of navigation*/
+ 		  width: 80%;/*set width of navigation*/
+  		}
+
+	* {
+		  
+		  font-color: black;/*set all text color to black*/
+		}
+	.football{
+
+		height: 50%;/*set football image half height*/
+		width: 100%;/*set football image full width*/
+		border-style: outset;/*set football image border to outset*/
+		border-radius: 40px;/*set football image to rounded corners*/
+
+	}
+
+	.volleyball{
+		height: 50%;/*set volleyball image half height*/
+		width: 100%;/*set volleyball image full width*/
+		border-style: outset;/*set volleyball image border to outset*/
+		border-radius: 40px;/*set volleyball image to rounded corners*/
+
+	}
+	span{
+		margin-top: 10px;/*set copyright to the top with 10 pixels*/
+
+	}
+	.primary{
+		height: 50%;/*set primary image  height to half*/
+		min-width: 200%;/*set primary image  width to minumum*/
+		border-radius: 50px;/*set primary  image to rounded corners*/
+		opacity: 1;/*set primary image opacity */
+	    display: block;/*set primary image  display to block*/
+		transition: .5s ease;/*set primary image transition to 5 seconds when clicked */
+		backface-visibility: hidden;/*set primary image visible when highlighted*/
+        
+
+	}
+	.container:hover .primary {
+		  opacity: 1;/*set primary image and container opacity to 1 so as to show hover */
+	}
+
+	.container:hover .middle {
+		  opacity: 1;/*set middle and container opacity to 1 so as to show hover */
+	}
+
+   .highparagraph{
+   		text-align: left;/*align paragraph to left */
+   		margin-left: 20px;/*set  paragraph to left by 20 pixels */
+
+       
+	}
+
+	h1:hover {
+	  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);/*set header 1 hover to box shadow */
+	  background: #525987;/*set header 1 background color */
+	  bottom: 0;/*set header 1 hover 's shadow to buttom by zero*/
+	  height: 100%;/*set header 1 to full height */
+
+	   }
+    h2:hover {
+    	background: #525987;/*set header 2 background color */
+    }
+
+    
+	.high{
+		min-height: 0%;/*set high image height to minimum */
+		width: 200%;/*set high image width to full */
+		border: 1px solid #ddd;/*set high image border to solid*/
+        border-radius: 4px;/*set high image to rounded corners*/
+        padding: 5px;/*set high image padding to 5 pixels*/
+        position: relative;
+        	
+	}
+	.container:hover .high {
+		  opacity: 1;/*set high image and container opacity to 1 */
+	}
+
+	
+	pre{
+		color: #141414;/*set paragraph color */
+  		font-family: arial;/*set paragraph font type to arial */
+  		font-size: 200%;/*set paragraph font size  */
+  		width: 300px;/*set paragraph width  */
+	    
+
+  		
+	}
+
+	.netflix{
+		height: 50%;/*set netflix image height to half */
+		width: 50%;/*set netflix image width to half */
+		margin-left: 700px;/*set netflix image to left side */
+		border-radius: 20px;/*set netflix image to rounded corners */
+		margin-bottom: 20px;/*set netflix image to bottom */ 
+
+	}
+
+	.certificate{
+		height: 50%;/*set certificate image height to half */
+		width: 50%;/*set certificate image width to half */
+		margin-left: 700px;/*set certificate image to left side */
+		border-radius: 20px;/*set certificate image to rounded corners */
+		margin-top: 10px;/*set certificate image to bottom */ 
+		 
+	}
+	#PERSONAL{
+		margin-right:800px;/*set paragraph to right side */ 
+		margin-top: 0px;/*set paragraph to top*/ 
+		
+	}
+	#FREE{
+		margin-right:800px;/*set paragraph to right side */ 
+
+	}
+	.quote{
+		font-family: cursive;/*set font type to cursive */ 
+  		font-size: 160%;/*set font size */ 
+  		text-align: center;/*align text to centre */ 
+
+	}
+	.text {
+		  font-color: white;/*set font color to white */ 
+		  font-size: 16px;/*set font size to 16 pixels*/ 
+		  padding: 16px 32px;/*set padding in different sides */ 
+}
+	.middle {
+			  transition: .5s ease;/*set middle transition to 5 seconds when clicked */
+			  opacity: 0;/*set middle opacity to 0*/
+			  position: absolute;/*position middle */
+			  top: 50%;/*position middle to top */
+			  left: 50%;/*position middle to left*/
+			  transform: translate(-50%, -50%);/*transform middle with tranlation  */
+			  -ms-transform: translate(-50%, -50%);
+			  text-align: center;/*set text align to centre */
+			  }
+    .container {
+			  position: relative;/*positioning container */
+			  width: 50%;/*set container width to half */
+			}
+       
+</style>
